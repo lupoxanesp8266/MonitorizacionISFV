@@ -10,4 +10,4 @@ Se ha elegido la plataforma THINGER.IO puesto que es gratuita y muy intuitiva.
 
 Esquema Electrónico
 
-https://raw.githubusercontent.com/lupoxanesp8266/TrabajoFinCicloSEA/Esquemas/Electronico.jpg
+https://raw.githubusercontent.com/lupoxanesp8266/TrabajoFinCicloSEA/Esquemas/Electronico.jpg 
