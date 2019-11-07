@@ -8,14 +8,14 @@ Para ello se utilizan varios dispositivos de control y medida que se explica det
 El ESP8266 es el microcontrolador elegido para la monitorización.
 Se ha elegido la plataforma THINGER.IO puesto que es gratuita y muy intuitiva.
 
-Manual
+Cómo implementar el dispositivo de monitorización:
 
 https://raw.githubusercontent.com/lupoxanesp8266/TrabajoFinCicloSEA/master/Manual.pdf 
 
-Esquema Electrónico
+Esquema Electrónico:
 
 https://raw.githubusercontent.com/lupoxanesp8266/TrabajoFinCicloSEA/master/Esquemas/Electronico.jpg 
 
-Esquema Eléctrico
+Esquema Eléctrico:
 
 https://raw.githubusercontent.com/lupoxanesp8266/TrabajoFinCicloSEA/master/Esquemas/Electrico.jpg 
