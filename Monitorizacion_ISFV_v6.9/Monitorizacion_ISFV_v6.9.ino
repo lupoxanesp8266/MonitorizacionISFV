@@ -17,19 +17,19 @@
 #include <SD.h>//Para la SD
 //
 /* Definir constantes */
-#define SSID1 "Aula43"//SSID Wifi
-#define PASS1 "Aula43Delta+"//Password Wifi
+#define SSID1 "SSID"//SSID Wifi
+#define PASS1 "PWD"//Password Wifi
 //
-#define usuario "iesCJ"//Nombre de usuario de thinger
-#define device_Id "ESP8266_ISFV"//Nombre del dispositivo al que nos conectaremos
-#define device_credentials "AfgRna3JQzBr"//Credenciales generadas por Thinger
+#define usuario "userName"//Nombre de usuario de thinger
+#define device_Id "deviceName"//Nombre del dispositivo al que nos conectaremos
+#define device_credentials "deviceCredentials"//Credenciales generadas por Thinger
 //
 #define TIME 1000//Tiempo para medir valores
 #define MAX 75//Máximas muestras para hacer media (muestreo)
 #define MAXVAL 60//Maximo de valores que guarda por minuto
 #define MAXSENS 6//Maximo de sensores que hay
 //
-#define timer0_preload 40161290
+#define timer0_preload 40161290//Timer que controla los cortes en la LCD
 #define my_delay 10//No menos de 5
 #define ADC 1023//Resolución del convertidor ADC
 //
@@ -232,7 +232,7 @@ int SetMuxChannel(byte channel)
   digitalWrite(muxS2, bitRead(channel, 2));
   digitalWrite(muxS3, bitRead(channel, 3));
 }
-
+/** FUNCIÓN PARA LEER LA TARJETA SD **/
 void leer_tarjeta() {
   Serial.print(F("Iniciando SD ... "));
   lcd.setCursor(0, 0);
@@ -257,6 +257,7 @@ void leer_tarjeta() {
   }
   delay(1000);//Esperar 1S para estabillizar
 }
+/** FUNCIÓN PARA ESCRIBIR EN LA TARJETA SD **/
 void escribir_tarjeta(String strValues) {
   File logFile;
   DateTime now = RTC.now();
