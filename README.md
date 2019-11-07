@@ -10,12 +10,12 @@ Se ha elegido la plataforma THINGER.IO puesto que es gratuita y muy intuitiva.
 
 Cómo implementar el dispositivo de monitorización:
 
-https://raw.githubusercontent.com/lupoxanesp8266/TrabajoFinCicloSEA/master/Manual.pdf 
+https://raw.githubusercontent.com/lupoxanesp8266/MonitorizacionISFV/master/Manual.pdf 
 
 Esquema Electrónico:
 
-https://raw.githubusercontent.com/lupoxanesp8266/TrabajoFinCicloSEA/master/Esquemas/Electronico.jpg 
+https://raw.githubusercontent.com/lupoxanesp8266/MonitorizacionISFV/master/Esquemas/Electronico.jpg 
 
 Esquema Eléctrico:
 
-https://raw.githubusercontent.com/lupoxanesp8266/TrabajoFinCicloSEA/master/Esquemas/Electrico.jpg 
+https://raw.githubusercontent.com/lupoxanesp8266/MonitorizacionISFV/master/Esquemas/Electrico.jpg 
